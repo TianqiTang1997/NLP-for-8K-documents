@@ -111,6 +111,12 @@ learning_ performance measures, not _investment strategy_ performance measures.
 A model with poor prediction could actually make moeny; a well-predicting model
 could lose money. The two measures generally go together but not always.
 
+### Correlation Between Topics and Sentiment/Alpha Score
+Sentiment Score has range from 5 to -5. Here we define large positive sentiment score as score larger than 3 and small negative sentiment score as scores that are smaller than -3. Recall that for alpha score we have 0 represents large downside movement, 1 represents no significant movement and 2 represents large upside movement. 
+
+Correlation between topics and sentiment scores
+
+
 ## Setup
 This setup assumes you already have `conda` and `git` installed.
 1. Clone this repo at your terminal: `git clone https://github.com/hatemr/NLP-for-8K-documents.git`
